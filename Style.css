@@ -1,0 +1,64 @@
+#big-img{
+    background-image: url('../Bootstrap-Portfolio/network-3849202__480.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 475px;
+}
+/* #next-img{
+    background-image: url('../Bootstrap-Portfolio/bestimg1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+} */
+
+#About{
+    margin-top: -150px;
+}
+
+#About .fab{
+    color:#fff;
+}
+
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+#Skills hr{
+    border-width: 2px;
+    margin-top:06px;
+}
+
+#Skills .button{
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+}
+
+#Experience span{
+    padding: 10px 20px 10px 20px;
+}
+#Experience hr{
+    border-width: 2px;
+    margin-top:06px;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+    /* #masthead{
+        position: static;
+    } */
+
+}

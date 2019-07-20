@@ -8,6 +8,14 @@
 
     <!-- We need to bring in the bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/16242dda31.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="../Bootstrap-Portfolio/Style.css">
+
     <style>
         img {
 
@@ -19,7 +27,7 @@
         }
 
         body {
-            background-color: #777;
+            background-color: rgb(54, 53, 53);
         }
 
         h1 {
@@ -31,6 +39,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        /* 
         .container {
             background-color: white;
             margin-top: 34px;
@@ -38,7 +47,7 @@
             height: 461px;
             margin-left: 279px;
             height: 960 px;
-        }
+        } */
 
         .footer {
             position: fixed;
@@ -78,36 +87,145 @@
         </div>
     </nav>
 
+    <!-- Show img -->
+    <div id="big-img"></div>
+    <div id="next-img"></div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>About Me</h1>
-                <hr>
+    <!-- Containers -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="../Bootstrap-Portfolio/Professional.jpeg" width="250" height="250"
+                                        alt="professional" class="img-fluid round-top mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <h3 class="display4">About Me</h3>
+                                        <p class="text-muted">Programmer</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci quae debitis sit. Vitae, hic? Sapiente et minima assumenda praesentium, architecto rem deleniti consectetur modi expedita. Sapiente quam omnis obcaecati? Officiis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <a href="#"> <i class="fab fa-github fa-2x mx-3"></i></a>
+                            <a href="#"> <i class="fab fa-facebook fa-2x mx-3"></i></a>
+                            <a href="https://www.linkedin.com/in/donirvin-dickerson-088570177"> <i class="fab fa-linkedin fa-2x mx-3"></i></a>
+                            <a href="#"> <i class="fab fa-instagram fa-2x mx-3"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <img src="Professional.jpeg" class="img-fluid" alt="Responsive image">
-                <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph
-                    paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph
-                    paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraphparagraph paragraph
-                    paragraph paragraph paragraph paragraphparagraph paragraphparagraph paragraphparagraph
-                    paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph
-                    paragraph paragraph
-                    paragraph paragraph paragraph paragraph
+    </div>
 
-                </p>
+    <!-- Skills -->
+    <div id="Skills" class="mt-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <span class="bg-primary text-white ">Skills</span>
+                    <hr class="bg-primary">
+                    <div class="row">
+                        <div class="col">
+                            <button class="button">Java</button>
+                            <button class="button">JavaScript</button>
+                            <button class="button">Python</button>
+                            <button class="button">HTML</button>
+                            <button class="button">CSS</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="button">MySql</button>
+                            <button class="button">Bootstrap</button>
+                            <button class="button">Materialize</button>
+                            <button class="button">Jquery</button>
+                            <button class="button">Postman</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col">
+                            <button class="button">Pill Button</button>
+                            <button class="button">Pill Button</button>
+                            <button class="button">Pill Button</button>
+                            <button class="button">Pill Button</button>
+                            <button class="button">Pill Button</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <div id="Experience">
+        <div class="container mt-5">
+                <span class="bg-success text-white">Experience</span>
+                <hr class="bg-success">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card bg-white">
+                        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200" height="80" class="img-fluid m-auto py-3"></a>
+                        <h3 class="text-center text-danger">Bootcamp</h3>
+                        <p class="lead text-justify p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis repudiandae, eos esse deleniti itaque nulla obcaecati qui dolorum dolores delectus dolorem iusto accusamus laborum soluta sed architecto non maxime perferendis?</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <a href="https://placeholder.com"><img src="https://via.placeholder.com/200" height="80" class="img-fluid m-auto py-3"></a>
+                            <h3 class="text-center text-danger">Coming Soon</h3>
+                            <p class="lead text-justify p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum eum similique est. Suscipit minus cumque iusto provident id? Libero itaque, consequatur dolore illum cum autem asperiores animi sequi vitae maxime?</p>
+                        </div>
+                    </div>
             </div>
         </div>
 
-
-    </div>
-    <div class="footer">
-        <p>Footer</p>
     </div>
 
-</body>
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark ">
+        <div class="row">
+            <div class="col">
+                <p class="text-white pt-3 text-center">Website Desgin By: Donirvin Dickerson in 2019-20</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
