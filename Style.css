@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(54, 53, 53);
+}
+
 #big-img{
     background-image: url('../Bootstrap-Portfolio/network-3849202__480.jpg');
     background-size: 100%;
@@ -46,6 +50,14 @@
 #Experience hr{
     border-width: 2px;
     margin-top:06px;
+}
+
+#Project span{
+    padding: 10px 20px 10px 20px;
+}
+#Project hr{
+    border-width: 2px;
+    margin-top:0px;
 }
 
 @media screen and (max-width: 980px){
